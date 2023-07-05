@@ -26,9 +26,9 @@ export function Category() {
               "https://images.unsplash.com/photo-1544787219-7f47ccb76574?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=421&q=80"
             }
           />
-          {state.category.map((category) => (
-            <div>
-              <CategoryCard categoryName={category} />
+          {state.category.map(({id,name}) => (
+            <div ksy={id}>
+              <CategoryCard categoryName={name} />
             </div>
           ))}
         </div>

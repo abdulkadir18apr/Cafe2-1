@@ -14,7 +14,7 @@ export function Navbar() {
       <div className="navbar-profile">
         <FontAwesomeIcon icon="fa-solid fa-moon icon" />
         <NavLink to={`/home`}>
-          <img src="https://images.unsplash.com/photo-1530174883092-c2a7aa3f1cfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80" alt="profile" srcset="" />
+          <img src="https://plus.unsplash.com/premium_photo-1663932463883-897e71481fc4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGxhdHRlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="profile" srcset="" id="logoImage" />
         </NavLink>
       </div>
     </div>

@@ -31,8 +31,8 @@ export function Login() {
   return (
     <div className="login">
       <div className="login-form">
-        <h1>DevHive</h1>
-        <h2>Login</h2>
+        <h1>Cafe Corner</h1>
+        <h2>{isLoginRoute?"LOGIN":"SIGNUP"}</h2>
         <form>
           {!isLoginRoute && (
             <input
@@ -79,7 +79,7 @@ export function Login() {
           </button>
           {/* <button className='primaryBtn' style={{display:!isLoginRoute && "none"}} onClick={testLoginClickHandler}>{isLoginRoute?"Test Login":"Signup"}</button> */}
           <NavLink
-            to={isLoginRoute ? "../signup" : "../login"}
+            to={isLoginRoute ? "../signup" : "/"}
             onClick={() => setIsLoginRoute((val) => !val)}
           >
             {isLoginRoute ? "New Here?" : "Already a user?"}

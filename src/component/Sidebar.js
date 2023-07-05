@@ -21,7 +21,7 @@ export function SideBar() {
             <span>Manage Category</span>
           </li>
         </NavLink>
-        <NavLink to="/bookmark">
+        <NavLink to="/product">
           <li>
             <FontAwesomeIcon icon="fa-solid fa-bookmark" />
             <span>Manage Products</span>
@@ -45,7 +45,7 @@ export function SideBar() {
             <span>Manage Users</span>
           </li>
         </NavLink>
-        <NavLink to="/login">
+        <NavLink to="/">
           <li>
             <FontAwesomeIcon icon="fa-solid fa-right-from-bracket" />
             <span>Logout</span>

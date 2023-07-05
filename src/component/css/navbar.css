@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color:aquamarine;
+  background-color:#cdd4d1;
 }
 
 .navbar h3{
@@ -28,8 +28,10 @@
   justify-self: flex-start;
 }
 .navbar .logo img{
-  border-radius: 50%;
+  
   width:5rem;
+  height: 5rem;
+  border-radius: 50%;
 }
 .navbar-profile{
   justify-self: flex-end;
@@ -48,4 +50,10 @@
   width:3rem;
   border-radius: 50%;
   cursor: pointer;
+}
+
+#logoImage{
+  width:5rem;
+  height: 5rem;;
+  
 }
